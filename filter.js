@@ -20,3 +20,11 @@ const discountedPriceUsingMap = arr.map(function(currentelement){
 })
 
 console.log(discountedPriceUsingMap);
+
+//splice
+
+let array = [1,23,4,5,6,6,7,8,9];
+
+array.splice(2,1,100,200);
+
+// array.splice(start,deleteCount, element1, element2);

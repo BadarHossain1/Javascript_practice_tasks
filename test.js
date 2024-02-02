@@ -32,3 +32,6 @@ var eggprice = 45;
 var onionPrice = 10;
 
 console.log(onionPrice * onionPrice);
+
+
+
