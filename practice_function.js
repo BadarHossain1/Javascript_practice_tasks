@@ -26,3 +26,8 @@ function binaryString(arr){
 const arr = '10010010100';
 // console.log(binaryString(arr));
 
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+     console.log(i);
+  }, 100);
+}  
