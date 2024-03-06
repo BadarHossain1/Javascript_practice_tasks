@@ -10,13 +10,15 @@ season = 'Summer'
 
 // 3 steps to work with a condition:
 
-if(FathersName == 'Hossain' && season == 'Winter'){
-    console.log('You are my son')}
-else if(FathersName == 'Hossain' && season == 'Summer'){
-    console.log('You are my son')}
-else{
+if (FathersName == 'Hossain' && season == 'Winter') {
+    console.log('You are my son')
+}
+else if (FathersName == 'Hossain' && season == 'Summer') {
+    console.log('You are my son')
+}
+else {
     console.log('You are not my son')
-}   
+}
 
 // 3: Array
 
@@ -98,7 +100,7 @@ const result = add(10, 20);
 
 // 6: Object
 
-const person = {   
+const person = {
     name: 'Badar',
     age: 20,
     isStudent: true
@@ -110,6 +112,50 @@ console.log(person.age);
 console.log(person['age']);
 console.log(person[myName]);
 
+
+
+// 'almas', 5, true, {}, []
+// '', false , null, undefined, NaN, 0
+// check truthy or falsy
+
+let myVar = 5;
+
+if (myVar) {
+    console.log('Truthy');
+}
+else if (!myVar) {
+    console.log('Falsy');
+}
+
+// Ternary Operator
+
+let food1 = 'Burger';
+let money = 150;
+
+let myFood = money > 100 ? 'Burger' : 'Bread';
+
+
+// number to string
+
+const num = 560;
+const numStr = num + '';
+
+// String to Number
+const input = '560';
+const inputNum = +input;
+
+// Shortcut
+
+let isActive = true;
+const showUser = () => console.log('User is active');
+const hideUser = () => console.log('User is not active');
+
+isActive ? showUser() : hideUser();
+isActive && showUser(); // User is active
+
+isActive || hideUser(); 
+
+isActive = !isActive; // isActive = false
 
 
 
